@@ -95,9 +95,9 @@ function renderProfilePanel(profile: BenchmarkProfile, isActive: boolean): strin
           <p class="sr-bench-insight">Eliminates dead air periods where no party is speaking.</p>
         </div>
 
-        <!-- 2. FILE SIZE & BANDWIDTH -->
+        <!-- 2. FILE SIZE & STORAGE SAVINGS -->
         <div class="sr-bench-card" data-reveal="fade-up">
-          <div class="sr-bench-card-label">Payload & Ingestion Size</div>
+          <div class="sr-bench-card-label">Storage & Ingestion Payload</div>
           
           <div class="sr-compare-values">
             <div class="sr-val-col before">
@@ -128,7 +128,7 @@ function renderProfilePanel(profile: BenchmarkProfile, isActive: boolean): strin
               </div>
             </div>
           </div>
-          <p class="sr-bench-insight">Lossless bit-depth retention without lossy MP3/AAC artifacts.</p>
+          <p class="sr-bench-insight">Cuts long-term cloud storage (S3/GCS) and network payloads with bit-exact lossless retention.</p>
         </div>
 
         <!-- 3. TRANSCRIPTION ACCURACY (WER) -->

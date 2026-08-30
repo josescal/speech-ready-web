@@ -109,16 +109,16 @@ export function renderProductStory(): string {
             </div>
           </article>
 
-          <!-- 6. LOSSLESS OUTPUT -->
+          <!-- 6. LOSSLESS OUTPUT & STORAGE -->
           <article class="sr-story-step" data-reveal="fade-up">
             <div class="sr-step-number-wrap">
               <span class="sr-step-number">06</span>
             </div>
             <div class="sr-step-content">
-              <span class="sr-step-tag">Output Encoding</span>
-              <h3 class="sr-step-title">Lossless output. No extra degradation before STT.</h3>
+              <span class="sr-step-tag">Output & Storage Footprint</span>
+              <h3 class="sr-step-title">Lossless output. Substantially smaller storage footprint.</h3>
               <p class="sr-step-desc">
-                Delivers bit-exact FLAC by default for maximum bandwidth efficiency, or standard WAV on request. Zero lossy compression generation loss.
+                Delivers bit-exact FLAC by default for maximum bandwidth and cloud storage efficiency, or standard WAV on request. Compacting non-speech audio and encoding losslessly cuts long-term archive storage costs (S3, GCS) by ~48% with zero acoustic quality loss.
               </p>
             </div>
             <div class="sr-step-visual">

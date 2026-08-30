@@ -41,8 +41,8 @@ export const metricsData: MetricsDataset = {
     {
       id: "file-size-reduction",
       value: "48%",
-      label: "Smaller Output Files",
-      description: "Lossless compaction combined with silence trimming slashes network ingestion bandwidth.",
+      label: "Storage & Ingestion Savings",
+      description: "Lossless compaction and silence trimming cut long-term S3/GCS audio archive footprints by nearly half.",
       status: "verified",
       category: "bandwidth",
     },

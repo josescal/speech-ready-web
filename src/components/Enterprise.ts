@@ -62,7 +62,7 @@ export function renderEnterprise(): string {
             <ul class="sr-enterprise-card-list">
               <li>Docker & Kubernetes native microservices</li>
               <li>HIPAA, SOC2 & GDPR compliant architecture</li>
-              <li>Sub-millisecond latency throughput</li>
+              <li>~48% lower long-term audio archival storage (S3/GCS)</li>
             </ul>
           </div>
 
