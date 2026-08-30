@@ -15,15 +15,13 @@ export function renderNavbar(): string {
         <!-- Brand / Logo -->
         <a href="#" class="sr-brand" aria-label="SpeechReady Home">
           <div class="sr-brand-icon" aria-hidden="true">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
-              <rect width="24" height="24" rx="6" fill="#0071E3"/>
-              <rect x="4" y="10" width="2" height="4" rx="1" fill="#FFF"/>
-              <rect x="7" y="7" width="2" height="10" rx="1" fill="#FFF"/>
-              <rect x="10" y="5" width="2" height="14" rx="1" fill="#FFF"/>
-              <rect x="13" y="8" width="2" height="8" rx="1" fill="#FFF"/>
-              <rect x="16" y="6" width="2" height="12" rx="1" fill="#FFF"/>
-              <rect x="19" y="10" width="2" height="4" rx="1" fill="#FFF"/>
-            </svg>
+            <img 
+              src="${import.meta.env.BASE_URL}assets/logo.png" 
+              alt="SpeechReady Logo" 
+              class="sr-brand-img" 
+              width="28" 
+              height="28" 
+            />
           </div>
           <span class="sr-brand-text">Speech<strong>Ready</strong></span>
         </a>

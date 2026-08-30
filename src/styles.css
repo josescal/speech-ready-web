@@ -294,9 +294,19 @@ button {
   letter-spacing: -0.02em;
 }
 
-.sr-brand strong {
-  font-weight: 700;
-  color: var(--color-accent);
+.sr-brand-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.sr-brand-img {
+  width: 28px;
+  height: 28px;
+  border-radius: 7px;
+  object-fit: contain;
+  display: block;
 }
 
 .sr-brand-icon svg {
