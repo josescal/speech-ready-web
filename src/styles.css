@@ -1486,6 +1486,151 @@ button {
 .sr-token-out { color: #30D158; }
 
 /* ==========================================================================
+   7.5 ENTERPRISE & COMMERCIAL LICENSING
+   ========================================================================== */
+.sr-enterprise-section {
+  background-color: var(--color-bg-subtle);
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.sr-enterprise-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  margin-top: 64px;
+  margin-bottom: 56px;
+}
+
+@media (max-width: 1024px) {
+  .sr-enterprise-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.sr-enterprise-card {
+  background-color: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  padding: 40px 32px;
+  display: flex;
+  flex-direction: column;
+  transition: all var(--transition-fast);
+  box-shadow: var(--shadow-sm);
+}
+
+.sr-enterprise-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--color-border-hover);
+  box-shadow: var(--shadow-lg);
+}
+
+.sr-card-icon-wrap {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-md);
+  background-color: var(--color-accent-subtle);
+  color: var(--color-accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.sr-enterprise-card-title {
+  font-size: 1.375rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--color-text-primary);
+  margin-bottom: 14px;
+}
+
+.sr-enterprise-card-text {
+  font-size: 0.9375rem;
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+  margin-bottom: 24px;
+  flex-grow: 1;
+}
+
+.sr-enterprise-card-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-top: 1px solid var(--color-border);
+  padding-top: 20px;
+}
+
+.sr-enterprise-card-list li {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--color-text-secondary);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.sr-enterprise-card-list li::before {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: var(--color-accent);
+  flex-shrink: 0;
+}
+
+.sr-enterprise-cta-box {
+  background: linear-gradient(135deg, #1C1C1E 0%, #2C2C2E 100%);
+  color: #FFFFFF;
+  border-radius: var(--radius-xl);
+  padding: 48px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+}
+
+@media (max-width: 860px) {
+  .sr-enterprise-cta-box {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 36px 24px;
+  }
+}
+
+.sr-enterprise-cta-heading {
+  font-size: clamp(1.25rem, 2.5vw, 1.625rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+  margin-bottom: 8px;
+}
+
+.sr-enterprise-cta-sub {
+  font-size: 0.9375rem;
+  color: rgba(255, 255, 255, 0.7);
+  max-width: 580px;
+}
+
+.sr-enterprise-cta-actions .sr-btn-primary {
+  white-space: nowrap;
+  background-color: #FFFFFF;
+  color: #000000;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
+}
+
+.sr-enterprise-cta-actions .sr-btn-primary:hover {
+  background-color: var(--color-accent);
+  color: #FFFFFF;
+}
+
+/* ==========================================================================
    8. RAPIDAPI CTA (FULLSCREEN FEEL)
    ========================================================================== */
 .sr-cta-section {

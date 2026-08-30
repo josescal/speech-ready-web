@@ -11,6 +11,7 @@ import { renderMetrics } from "./components/Metrics";
 import { renderBenchmarks, initBenchmarkTabs } from "./components/Benchmarks";
 import { renderProductStory } from "./components/ProductStory";
 import { renderHowItWorks } from "./components/HowItWorks";
+import { renderEnterprise } from "./components/Enterprise";
 import { renderCTA } from "./components/CTA";
 import { renderFooter } from "./components/Footer";
 
@@ -58,6 +59,7 @@ function initApp(): void {
       ${renderBenchmarks()}
       ${renderProductStory()}
       ${renderHowItWorks()}
+      ${renderEnterprise()}
       ${renderCTA()}
     </main>
     ${renderFooter()}

@@ -34,6 +34,7 @@ export function renderNavbar(): string {
           <a href="#benchmarks" class="sr-nav-link">Benchmarks</a>
           <a href="#features" class="sr-nav-link">Technology</a>
           <a href="#how-it-works" class="sr-nav-link">Integration</a>
+          <a href="#enterprise" class="sr-nav-link">Enterprise</a>
         </nav>
 
         <!-- Header Actions -->
