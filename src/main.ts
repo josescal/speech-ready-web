@@ -59,8 +59,8 @@ function initApp(): void {
       ${renderBenchmarks()}
       ${renderProductStory()}
       ${renderHowItWorks()}
-      ${renderEnterprise()}
       ${renderCTA()}
+      ${renderEnterprise()}
     </main>
     ${renderFooter()}
   `;
