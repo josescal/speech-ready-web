@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" fill="none">
+  <defs>
+    <!-- Background Gradient: Obsidian Glass -->
+    <linearGradient id="sr-dark-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1C1C1E" />
+      <stop offset="100%" stop-color="#0B0B0C" />
+    </linearGradient>
+
+    <!-- Electric Accent Gradient for Waveform -->
+    <linearGradient id="sr-accent-bars" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#0071E3" />
+      <stop offset="100%" stop-color="#2997FF" />
+    </linearGradient>
+
+    <filter id="sr-glow-bar" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- iOS-style Squircle Canvas -->
+  <rect x="16" y="16" width="480" height="480" rx="112" fill="url(#sr-dark-bg)" stroke="#2C2C2E" stroke-width="2" />
+
+  <!-- Acoustic Dynamic Soundwave Bars with Electric Blue Accent -->
+  <g filter="url(#sr-glow-bar)">
+    <rect x="96" y="216" width="36" height="80" rx="18" fill="url(#sr-accent-bars)" fill-opacity="0.75" />
+    <rect x="156" y="164" width="36" height="184" rx="18" fill="url(#sr-accent-bars)" fill-opacity="0.90" />
+    <rect x="216" y="112" width="36" height="288" rx="18" fill="url(#sr-accent-bars)" />
+    <rect x="276" y="148" width="36" height="216" rx="18" fill="url(#sr-accent-bars)" fill-opacity="0.95" />
+    <rect x="336" y="196" width="36" height="120" rx="18" fill="url(#sr-accent-bars)" fill-opacity="0.85" />
+    <rect x="396" y="232" width="36" height="48" rx="18" fill="url(#sr-accent-bars)" fill-opacity="0.65" />
+  </g>
+</svg>
